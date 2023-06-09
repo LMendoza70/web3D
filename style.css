@@ -1,0 +1,40 @@
+body {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h2 {
+  color: brown;
+}
+#imagen {
+  width: 250px;
+  padding: 50px;
+}
+.ejemplo {
+  color: blue;
+}
+
+div {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  margin: 2px;
+}
+#header {
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.imgh {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 70px;
+  width: 70px;
+}
+input:valid {
+  background-color: lightgreen;
+}
+input:invalid {
+  background-color: lightpink;
+}

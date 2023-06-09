@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./js/hola.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1>Practica JS</h1>
+        <img src="./src/logo.png" alt="ok" class="imgh" />
+      </div>
+      <div id="contenido">
+        <h2>Calculadora...</h2>
+        <p>
+          <input
+            type="number"
+            name="v1"
+            id="v1"
+            placeholder="Captura el valor 1"
+            onblur="capturan1()"
+            value="0"
+          />
+        </p>
+        <p>
+          <input
+            type="number"
+            name="v2"
+            id="v2"
+            placeholder="Captura el valor 2"
+            onblur="capturan2()"
+            value="0"
+          />
+        </p>
+        <input type="button" value="+" onclick="suma()" />
+        <input type="button" value="-" onclick="resta()" />
+        <input type="button" value="*" onclick="multiplicacion()" />
+        <input type="button" value="/" onclick="division()" />
+        <h2 id="resultado">El resultado es...</h2>
+      </div>
+    </div>
+  </body>
+</html>
